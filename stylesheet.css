@@ -1,102 +1,64 @@
-body {
-  font-family: "Avenir Next";
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practice</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Practice</div>
+      <div class="header-list">
+        <ul>
+          <li>Link 1</li>
+          <li>Link 2</li>
+          <li>Link 3</li>
+        </ul>
+      </div>
+    </div>
 
-li {
-  list-style: none;
-}
+    <div class="main">
+      <div class="copy-container">
+        <h1>WELCOME<span>!</span></h1>
+      </div>
 
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
-}
+      <div class="contents">
+        <h3 class="section-title">おすすめの曲</h3>
 
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
-}
+        <div class="contents-item">
+          <img src="bump.jpg" width="250px" height="200px">
+          <p>BUMP OF CHICKEN</p>
+        </div>
 
-.header-list li {
-  float: left;
-  padding: 33px 20px;
-}
+        <div class="songs">
+         <a href="https://youtu.be/RwCl11tyWP0">HAPPY
+         </a>
+        </div>
 
-.main {
-  padding: 100px 80px;
-}
+        <div class="songs">
+         <a href="https://youtu.be/vfhRGqCn1u0">流れ星の正体
+         </a>
+        </div>
 
-.copy-container h1 {
-  font-size: 140px;
-}
-
-.copy-container h2 {
-  font-size: 60px;
-}
-
-.copy-container span {
-  color: #ff4a4a;
-}
-
-.contents {
-  height: 500px;
-  margin-top: 100px;
-}
-
-.section-title {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
-}
-
-.contents-item {
-  float: left;
-  margin-right: 40px;
-}
-
-.contents-item p {
-  font-size: 24px;
-  margin-top: 30px;
-}
-
-.contact-form {
-  padding-top: 100px;
-}
+        <div class="songs">
+         <a href="https://youtu.be/G6s8HF1WsJY">話がしたいよ
+         </a>
+        </div>
 
 
-input , textarea {
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
-  font-size: 18px;
-  border:1px solid #dee7ec;
-}
+      </div>
 
+    </div>
 
-.contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
-}
-
-.footer {
-  background-color: #2f5167;
-  color: #fff;
-  height: 120px;
-  padding: 40px;
-}
-
-.footer-logo {
-  float: left;
-  font-size: 32px;
-}
-
-.footer-list {
-  float: right;
-}
-
-.footer-list li {
-  padding-bottom: 20px;
-}
+    <div class="footer">
+      <div class="footer-logo">Practice</div>
+      <div class="footer-list">
+        <ul>
+          <li>作成者</li>
+          <li>negima</li>
+          <li>随時更新</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
